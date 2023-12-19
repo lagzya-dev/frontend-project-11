@@ -4,7 +4,7 @@ import { uniqueId } from "lodash";
 import { string, setLocale } from "yup";
 import rawXMLparser from "./parser.js";
 import viewWatchedState from "./view.js";
-import resources from "./locales/index.js";
+import resources from "./loc/index.js";
 
 const updatePeriod = 5000;
 
